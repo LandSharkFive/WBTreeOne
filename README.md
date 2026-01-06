@@ -4,14 +4,14 @@ A C# implementation of a self-balancing binary search tree. This project demonst
 
 
 
-## 🚀 Features
+## Features
 
 The WeightBalancedTree class provides a robust API for hierarchical data management:
 * **Self-Balancing**: Automatically triggers a rebalance when the tree height exceeds the $2\log n$ threshold.
 * **Core Operations**: Fully supports Insert, Remove, Build, and Clear.
 * **Flexible Estimation**: Implements height estimation logic (configurable via left-path, right-path, or random-path sampling) to minimize overhead.
 
-## 📊 Performance Analysis
+## Performance Analysis
 
 The tree maintains an optimal height of $O(\log n)$, providing the following complexities:
 
@@ -21,11 +21,11 @@ The tree maintains an optimal height of $O(\log n)$, providing the following com
 | **Balance / Build** | $O(n)$ | $O(n)$ |
 | **Clear** | $O(1)$ | $O(1)$ |
 
-*Note: Rebalancing is performed amortized over $n$ operations to maintain high throughput.*
+*Note: Rebalancing is performed amortized over n operations to maintain high throughput.*
 
 ---
 
-## 🛠 Installation & Build
+## Installation & Build
 
 This is a **C# Console-Mode Project** targeting modern .NET.
 
@@ -34,7 +34,7 @@ This is a **C# Console-Mode Project** targeting modern .NET.
 3. **Build**: Use Ctrl+Shift+B to compile.
 4. **Run**: Press F5 to execute the demonstration, which inserts random integers and displays the balanced output.
 
-## 🧪 Quality Assurance
+## Quality Assurance
 
 Comprehensive **Unit Tests** are included to verify:
 * Tree integrity after insertions and removals.
